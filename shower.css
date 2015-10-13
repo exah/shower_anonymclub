@@ -1,0 +1,75 @@
+.faded {
+	color: rgba(255, 255, 255, 0.5)
+}
+
+.slide:after {
+	top: 20px;
+	right: 20px;
+	bottom: auto;
+	left: auto;
+}
+
+.slide.shout {
+	background-color: black;
+	text-align: center;
+	font-style: italic;
+}
+
+._our-chat {
+	box-shadow: 0 2px 6px rgba(0,0,0,.1);
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+
+	width: 80%;
+	background-color: white;
+
+	transition: all .5s;
+	/*width: 320px;*/
+}
+
+._our-chat-holder {
+	background-color: #eee;
+}
+
+.toggle-mobile input {
+	position: absolute;
+	left: -9999px;
+}
+
+.toggle-mobile label {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	cursor: pointer;
+
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 999px;
+	background-color: gray;
+	background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" enable-background="new 0 0 20 20"><path d="M14.004 0h-8.008c-1.102 0-1.996.894-1.996 1.996v16.007c0 1.103.894 1.997 1.996 1.997h8.007c1.103 0 1.997-.894 1.997-1.996v-16.008c0-1.102-.894-1.996-1.996-1.996zm-4.004 19c-.69 0-1.25-.447-1.25-1s.56-1 1.25-1 1.25.447 1.25 1-.56 1-1.25 1zm4-3h-8v-14h8v14z" fill="white" /></svg>');
+	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.toggle-mobile input:checked + label {
+	background-color: #52A2DF;
+}
+
+.toggle-mobile input:checked ~ ._our-chat {
+	width: 320px;
+}
+
+.cover {
+	color: white;
+}
+
+.cover a {
+	color: white;
+}

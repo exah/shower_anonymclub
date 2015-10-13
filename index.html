@@ -1,28 +1,29 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>AnonymClub</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=792, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen.css">
+	<link rel="stylesheet" href="node_modules/shower-bright/styles/screen.css">
+	<link rel="stylesheet" href="shower.css">
 </head>
 <body class="list">
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>Anonym.club</h1>
+		<p>By <a href="https://github.com/shri-2015-org/666" target="_blank">anonym club star team</a></p>
 	</header>
 	<section class="slide cover" id="Cover"><div>
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-		<img src="pictures/cover.jpg" alt="">
+		<h2><span class="faded">http://</span>anonym.club<span class="faded">/</span></h2>
+		<p>Переходите по ссылке</p>
+		<!-- <img src="pictures/cover.jpg" alt=""> -->
 		<!--
 			To apply styles to the certain slides
 			set slide ID to get needed elements
 			-->
 		<style>
 			#Cover h2 {
-				margin:30px 0 0;
+				margin:80px 0 0;
 				color:#FFF;
 				text-align:center;
 				font-size:70px;
@@ -40,18 +41,42 @@
 		</style>
 	</div></section>
 	<section class="slide"><div>
-		<h2>Shower Key Features</h2>
+		<h2>Анонимный чат</h2>
 		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>All modern browsers are supported</li>
-			<li>Slide themes are separated from engine</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
+			<li>Каждый раз генерируется новый пользователь</li>
+			<li>Нет ников, генерируется случайная аватарка</li>
+			<li>Комната исчезает, когда выходит последний пользователь</li>
+			<li>Не хранятся личные данные пользователя</li>
+			<li>Анонимность в первую очередь</li>
 		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+	</div></section>
+	<section class="slide shout"><div>
+		<h2>Demo</h2>
+	</div></section>
+	<section class="slide _our-chat-holder"><div>
+		<div class="toggle-mobile">
+			<input type="checkbox" id="toggle-mobile" /><label for="toggle-mobile"></label>
+			<iframe src="http://beta.anonym.club/" width="95%" height="85%" class="_our-chat">
+			 <p>Your browser does not support iframes.</p>
+			</iframe>
+		</div>
+	</div></section>
+	<section class="slide shout"><div>
+		<h2>Технологии</h2>
 	</div></section>
 	<section class="slide"><div>
-		<h2>Plain Text on Your Slides</h2>
+		<h2>Штуки, которые мы использовали</h2>
+		<ol>
+			<li>React</li>
+			<li>Redux</li>
+			<li>Socket.io</li>
+			<li>Express</li>
+			<li>MongoDB (Mongoose)</li>
+		</ol>
+		<p class="note">Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.</p>
+	</div></section>
+	<section class="slide"><div>
+		<h2>React</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
 	</div></section>
 	<section class="slide"><div>
@@ -135,9 +160,6 @@
 				}
 		</style>
 	</div></section>
-	<section class="slide shout"><div>
-		<h2>You can even shout this way</h2>
-	</div></section>
 	<section class="slide"><div>
 		<h2>Inner Navigation</h2>
 		<ol>
@@ -148,22 +170,24 @@
 			<li class="next">Nobody wants to see the same joke twice</li>
 		</ol>
 	</div></section>
-	<section class="slide shout" id="SeeMore"><div>
-		<h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
+	<section class="slide cover" id="End"><div>
+		<h2>The End</h2>
+		<ul>
+			<li><a href="http://anonym.club">Anonym.club</a> star team</li>
+			<li>Project on GitHub: <a href="https://github.com/shri-2015-org/666">shri-2015-org/666</a></li>
+			<li>Дмитрий Акимов (@deemidroll)</li>
+			<li>Владимир Семёнов (@tempname11)</li>
+			<li>Денис Иогансен (@pofigizm)</li>
+			<li>Руслан Злыгостин (@naruzl)</li>
+			<li>Сергей Хохлачёв (@khokhloma)</li>
+			<li>Иван Гришин (@exah)</li>
+		</ul>
 		<style>
-			#Picture h2 {
-				color:#FFF;
-				}
-			#SeeMore h2 {
-				font-size:100px
-				}
-			#SeeMore img {
-				width:0.72em;
-				height:0.72em;
-				}
+			#End div {
+				padding-top: 50px;
+			}
 		</style>
 	</div></section>
-	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
